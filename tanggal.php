@@ -1,1 +1,2 @@
-kjhjkjk
+<?php
+echo "jhjh";
