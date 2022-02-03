@@ -20,7 +20,8 @@
 </div>
 <div class="badan">
 
-<?phpif(isset($_GET['page'])){
+<?php
+if(isset($_GET['page'])){
     $page = $_GET['page'];
 
 
@@ -39,12 +40,8 @@ switch ($page){
         include "halaman/beranda.php";
     }
         ?>
-        </div>
-    </div>
-    </body>
-    </html>
 
-    body{
+body{
         background-color:#f9f9f9;
         font-size:16px
         color:#444;
@@ -104,3 +101,9 @@ switch ($page){
          texy-align: center;
          padding: 30px 20px
      }
+        </div>
+    </div>
+    </body>
+    </html>
+
+    
